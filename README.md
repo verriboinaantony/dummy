@@ -1,7 +1,5 @@
 # Badminton Player Image Classification
 
-## Table of Contents
-
 ## Overview
 
 This project aims to classify images of four badminton players from a game into individual player classes. By leveraging computer vision techniques such as background subtraction, feature extraction, and clustering, the solution isolates and identifies each player based on distinct characteristics, primarily their outfit colors.
@@ -21,6 +19,7 @@ Ensure you have Python 3 installed on your system. You can verify the installati
 python3 --version
 pip install -r requirements.txt
 ```
+## OR
 ```bash
 pip install opencv-python numpy scikit-learn
 ```
