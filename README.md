@@ -27,18 +27,20 @@ pip install opencv-python numpy scikit-learn
 ## Prepare the Directory Structure
 
 Ensure your project directory contains the following:
-badminton-player-classification/
+```implementation_1/
 ├── execute.sh
 ├── classify_players.py
 ├── top_two_players/ (folder)
 ├── bot_two_players/ (folder)
 └── court_image.jpg
+```
 top_two_players/: Folder containing images of the top two players.
 bot_two_players/: Folder containing images of the bottom two players.
 court_image.jpg: Reference image of the badminton court for background subtraction.
 
 ## Directory Structure
 
+```
 implementation_1/
 ├── execute.sh
 ├── classify_players.py
@@ -57,6 +59,7 @@ implementation_1/
 │   ├── Player3/
 │   └── Player4/
 └── README.md
+```
 output/: This directory will be created by the execute.sh script and will contain subdirectories for each classified player.
 
 ## Usage
